@@ -36,6 +36,7 @@ class _StaffDashboardState extends State<StaffDashboard> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Staff Dashboard'),
+        centerTitle: true,
       ),
       bottomNavigationBar: AnimatedBottomBar(
         barItems: barItems,
