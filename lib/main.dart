@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'CustomeApp/WelcomePage.dart';
+import 'CustomerApp/WelcomePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,5 +13,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
