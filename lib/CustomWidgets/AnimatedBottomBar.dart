@@ -86,6 +86,7 @@ class _AnimatedBottomBarState extends State<AnimatedBottomBar>
   }
 }
 
+//
 class BarItem {
   String text;
   IconData iconData;
