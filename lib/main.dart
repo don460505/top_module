@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:top_module/StaffApp/StaffDashboard.dart';
+import 'package:top_module/VendorApp/VendorDashboard.dart';
 import 'CustomerApp/WelcomePage.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => WelcomePage(),
-        '/StaffDashboard': (context) => StaffDashboard(),
+        '/VendorDashboard':(context) => VendorDashboard(),
       },
     );
   }

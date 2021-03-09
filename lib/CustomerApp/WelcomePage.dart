@@ -33,7 +33,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 width: MediaQuery.of(context).size.width,
                 child: CustomWidgets.getRoundedRaisedButton(
                     context, "STAFF LOGIN", onPressed: () {
-                  Navigator.pushNamed(context, '/StaffDashboard');
+
                 })),
             SizedBox(
               height: 12,
@@ -42,7 +42,9 @@ class _WelcomePageState extends State<WelcomePage> {
                 width: MediaQuery.of(context).size.width,
                 child: CustomWidgets.getRoundedRaisedButton(
                     context, "VENDOR LOGIN",
-                    onPressed: () {})),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/VendorDashboard');
+                    })),
           ],
         ),
       ),
